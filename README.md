@@ -1,5 +1,5 @@
 # Caroline Mooney Portfolio
-- [Live Site](https://web-design-oswego-art-dept.github.io/f20-317-individual-project-carmooney/)
+- [Live Site](https://carmooney.github.io/CMCreativesCo)
 - [Design Journal](https://docs.google.com/document/d/1CDNk6hWCjrM5uAH1gEBu20PX0ZMJURvA-KNKAqZVeF8/edit?usp=sharing)
 
 ## Purpose of the site
