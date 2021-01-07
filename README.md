@@ -1,5 +1,5 @@
 # Caroline Mooney Portfolio
-- [Live Site](https://carmooney.github.io?
+- [Live Site](https://carmooney.github.io)
 - [Design Journal](https://docs.google.com/document/d/1CDNk6hWCjrM5uAH1gEBu20PX0ZMJURvA-KNKAqZVeF8/edit?usp=sharing)
 
 ## Purpose of the site
