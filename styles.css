@@ -171,6 +171,10 @@ width: auto;
   margin-top: 3rem;
   margin-bottom: 5rem;
 }
+.projecthr hr{ 
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
 .homepagep h1{ 
  margin-left: .8rem; 
  color:#49558A;
@@ -410,12 +414,6 @@ flex-flow: row;
   margin-right: 2rem;
 }
 
-
-.homepageline hr{ 
-  margin-top: 7rem;
-  margin-bottom: 2rem;
-
-}
 a.bbcasestudy article img{  
 width: 100%;
 }
@@ -459,8 +457,6 @@ width: 100%;
 .newestarticle article{ 
 width: 100%;
 }
-
-
 
 .recentprojects hr{ 
   margin-bottom: .5rem;
