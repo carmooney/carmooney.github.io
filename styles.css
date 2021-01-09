@@ -234,6 +234,7 @@ margin-right:auto
 }
 .center{ 
   text-align: center;
+
 }
 .icon{ 
 max-width: 6.5rem;
@@ -449,6 +450,14 @@ grid-template-rows: 1fr;
 grid-gap: .5em;
 width: 100%;
 }
+.vogrid{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: .5em;
+  width: 100%;
+  }
+}
 
 .newestarticle p{ 
   font-size: .8rem;
@@ -486,6 +495,5 @@ width: 30%;
   .grid{ 
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-}
 }
 }
