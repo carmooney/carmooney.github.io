@@ -11,6 +11,7 @@ html {
     font-size:1rem; 
     font-style:normal;
     line-height:1.3em;   
+    
  }
 header{ 
   background-color: #F8F4E3;
@@ -27,6 +28,7 @@ a:hover .bold{
 .center{ 
   text-align: center;
 }
+
 dl{ 
   margin-top: 1rem;
 }
@@ -94,7 +96,7 @@ hr{
   color: #EDCF8E ;
   background-color: #EDCF8E;
   height: 5px;
-  margin-top:.2rem;
+  margin-top: 2rem;
   margin-bottom: .8rem;
 }
 video{ 
@@ -159,6 +161,16 @@ margin-right: auto;
 .me{ 
   width: 100%; 
 }
+.mewide{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+width: auto;
+}
+.bio{ 
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
 .homepagep h1{ 
  margin-left: .8rem; 
  color:#49558A;
@@ -193,21 +205,12 @@ a.bbcasestudy article img{
   color: #49558a;
   margin-left: .5rem;
 }
-.pinkbox {
-  background-color: #DA9D95;
-  width: 100%;
-margin-top: 4rem;
-padding:.5rem;
-box-sizing: content-box;
-align-items: stretch;
-}
-.pinkbox img{
-width: 50%;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 1rem;
-}
 
+.mecircle{ 
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .bblogo{ 
   border:1px solid black;
   width: 90%;
@@ -215,6 +218,7 @@ margin-bottom: 1rem;
   margin-right: auto;
   margin-top: 2rem;
 }
+
 
 .list ul{ 
   margin-left:1.5rem;
@@ -241,11 +245,12 @@ box-sizing: border-box;
   filter: brightness(75%)
 }
 .newestarticle h3{
-  font-size: 1.2rem;
+  font-size: .9rem;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  font-size: smaller;
   font-weight: normal;
+  padding:.3rem;
+  line-height:1.2em ;
 }
 .newestarticle article{
   border:1px solid black ;
@@ -255,9 +260,80 @@ box-sizing: border-box;
   text-align: center;
  margin-left: auto;
  margin-right: auto;
+ width: 100%;
 }
+.button{ 
+  background-color: #F8F4E3;
+  border: 1px solid #F8F4E3;
+  font-size: 1.2rem;
+  padding: .5rem;
+  font-family:'Martel', Georgia, serif;
+  font-weight:700;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+width: 170px;
+justify-content: center;
+text-align: center;
+margin-left:auto;
+margin-right: auto;
+}
+.button a{ 
+  color: #E5AE5E;
+}
+.button a:hover{ 
+  color: #49558A;
+}
+.mebutton{ 
+  background-color: #F8F4E3;
+  border: 1px solid #F8F4E3;
+  font-size: 1.2rem;
+  padding: .5rem;
+  font-family:'Martel', Georgia, serif;
+  font-weight:700;
+  border-radius: 6px;
+width: 300px;
+justify-content: center;
+text-align: center;
+margin-left:auto;
+margin-right: auto;
+}
+.mebutton a{
+  color: #E5AE5E;
+}
+.mebutton a:hover{ 
+  color: #49558a;
+}
+.aboutbutton{ 
+  background-color: #F8F4E3;
+  border: 1px solid #F8F4E3;
+  font-size: 1.5rem;
+  padding: .7rem;
+  font-family:'Martel', Georgia, serif;
+  font-weight:700;
+  border-radius: 6px;
+width: 250px;
+justify-content: center;
+text-align: center;
+margin-left:auto;
+margin-right: auto;
+margin-bottom: 3rem;
+}
+.aboutbutton a{
+  color: #E5AE5E;
+}
+.aboutbutton a:hover{ 
+  color: #49558a;
+}
+.reviews{ 
+ background-color: #F8F4E3; 
+ padding:.3rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
 .recentprojects h2{ 
   color: #49558A;
+  margin-top: 2.5rem;
 }
 .email{ 
   max-width:18%;
@@ -328,20 +404,22 @@ flex-flow: row;
   margin-right: 2rem;
   margin-bottom: 1rem;
 }
+.mecircle{ 
+  width: 35%;
+  float: left;
+  margin-right: 2rem;
+}
+
 
 .homepageline hr{ 
   margin-top: 7rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+
 }
 a.bbcasestudy article img{  
 width: 100%;
 }
-.pinkbox img{ 
-  float: left;
-  width: 30%;
-  margin-right: 2rem;
-  margin-left: 1rem;
-}
+
 
 .gif{ 
   width:75%;
@@ -361,16 +439,27 @@ a.bbcasestudy article h3{
 .grid{ 
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(19rem,1fr));
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
+.indexgrid{ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-gap: .5em;
+width: 100%;
+}
 
 .newestarticle p{ 
   font-size: .8rem;
+  text-align: center;
 }
 .newestarticle article{ 
-  width: 50%;
+width: 100%;
 }
+
 
 
 .recentprojects hr{ 
@@ -390,9 +479,14 @@ a.bbcasestudy article h3{
   .icon{ 
     max-width: 10%;
 margin-left: 1rem;
-  
-
   }
+.mecircle{ 
+width: 30%;
+}
+.bio{ 
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
   .grid{ 
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
