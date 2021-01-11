@@ -336,6 +336,7 @@ margin-bottom: 3rem;
  margin-bottom: 1rem;
 }
 
+
 .recentprojects h2{ 
   color: #49558A;
   margin-top: 2.5rem;
@@ -400,6 +401,13 @@ nav a{
 }
 video{ 
 flex-flow: row;
+margin-left: auto;
+margin-right: auto;
+}
+.oneimage{ 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 .me{ 
   width: 48%;
@@ -414,7 +422,11 @@ flex-flow: row;
   float: left;
   margin-right: 2rem;
 }
+.vimeo{ 
+  margin-left: auto;
+  margin-right: auto;
 
+}
 a.bbcasestudy article img{  
 width: 100%;
 }
