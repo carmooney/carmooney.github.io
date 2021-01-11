@@ -10,9 +10,12 @@ html {
     color: black; 
     font-size:1rem; 
     font-style:normal;
-    line-height:1.3em;
+    line-height:1.3em;   
     
  }
+header{ 
+  background-color: #F8F4E3;
+}
 .italic{ 
  font-style: italic; 
 }
@@ -25,6 +28,7 @@ a:hover .bold{
 .center{ 
   text-align: center;
 }
+
 dl{ 
   margin-top: 1rem;
 }
@@ -32,7 +36,7 @@ dd{
   margin-bottom: 1rem;
 }
 h1 {
-  color:black;
+  color: #49558A;
   font-size: 1.8rem;  
   font-weight: 800;
   line-height: 3rem; 
@@ -69,7 +73,7 @@ margin-right: .6rem;
 nav ul { 
   text-align: center;
   justify-content: center;
-  background-color: #EDCF8E;
+  background-color:#F8F4E3 ;
   padding-top: .5rem;
   padding-bottom: .5rem;
   list-style: none;
@@ -78,7 +82,7 @@ nav ul {
 }
 
 nav a{ 
-  color: #49558A;
+  color: #E5AE5E;
 }
 nav a:hover{
   font-weight: 800;
@@ -92,7 +96,7 @@ hr{
   color: #EDCF8E ;
   background-color: #EDCF8E;
   height: 5px;
-  margin-top:.2rem;
+  margin-top: 2rem;
   margin-bottom: .8rem;
 }
 video{ 
@@ -105,10 +109,7 @@ video{
 a{ 
   color: black;
 }
-a.bbcasestudy article{  
-  border: 4px solid #49558A;
-  width: 100%;  
-}
+ 
 
 a:link{ 
   text-decoration: none;
@@ -118,13 +119,14 @@ a:link{
 a:hover{ 
 color: #49558A;
 }
-
-a:hover article, a:focus article{ 
-  border-style: dashed;
+a:hover img{ 
+  filter:brightness(100%)
+}
+a:hover h3{
+  font-weight: bold;
 }
 
 article{ 
-  border: 4px solid #49558A;  
   text-align: center;
   margin-top: .5rem;
   margin-bottom: .5rem;
@@ -159,9 +161,23 @@ margin-right: auto;
 .me{ 
   width: 100%; 
 }
+.mewide{
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+width: auto;
+}
+.bio{ 
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.projecthr hr{ 
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
 .homepagep h1{ 
  margin-left: .8rem; 
- color:#DA9D95;
+ color:#49558A;
  animation: slideright 1.5s linear;
     animation-name: slideright;
     animation-duration: 1.5s;
@@ -169,11 +185,7 @@ margin-right: auto;
     animation-delay: 0s;
     animation-direction: normal;
 }
-@keyframes slideright{ 
-  0% {transform: translatex(-1900px);}
-  60% {transform: translateX(20px);}
-  100% {transform: translateX(0px);}
-}
+
 .homepagep h2{ 
   margin-left: .8rem; 
   color:#DA9D95;
@@ -181,29 +193,27 @@ margin-right: auto;
 .homepagep p{ 
   margin-left: .6rem;
 }
-.slide{animation: slideright 2s linear;
-  animation-name: slideright;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-play-state: running;
-}
+
 a.bbcasestudy article img{ 
   width: 100%;
 } 
 
 .pinktext h1{ 
-  color: #DA9D95;
+  color:#49558A;
 }
 
 .pinktext h2{ 
- color: #DA9D95; 
+ color: #49558a; 
 }
 .pinktext h3{ 
-  color: #DA9D95;
+  color: #49558a;
   margin-left: .5rem;
+}
+
+.mecircle{ 
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .bblogo{ 
   border:1px solid black;
@@ -212,6 +222,7 @@ a.bbcasestudy article img{
   margin-right: auto;
   margin-top: 2rem;
 }
+
 
 .list ul{ 
   margin-left:1.5rem;
@@ -223,14 +234,112 @@ margin-right:auto
 }
 .center{ 
   text-align: center;
+
 }
 .icon{ 
-width: 12%;
+max-width: 6.5rem;
 display: flex;
-flex-wrap: row;
-padding-right:.5rem;
-float: left;
-padding-left: .5rem;
+margin-left: .6rem;
+box-sizing: border-box;
+
+}
+.newestarticle img{ 
+  border:1px solid black;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  filter: brightness(75%)
+}
+.newestarticle h3{
+  font-size: .9rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-weight: normal;
+  padding:.3rem;
+  line-height:1.2em ;
+}
+.newestarticle article{
+  border:1px solid black ;
+  color: black;
+  text-decoration: none;
+  margin-top: .2rem;
+  text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+.button{ 
+  background-color: #F8F4E3;
+  border: 1px solid #F8F4E3;
+  font-size: 1.2rem;
+  padding: .5rem;
+  font-family:'Martel', Georgia, serif;
+  font-weight:700;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+width: 170px;
+justify-content: center;
+text-align: center;
+margin-left:auto;
+margin-right: auto;
+}
+.button a{ 
+  color: #E5AE5E;
+}
+.button a:hover{ 
+  color: #49558A;
+}
+.mebutton{ 
+  background-color: #F8F4E3;
+  border: 1px solid #F8F4E3;
+  font-size: 1.2rem;
+  padding: .5rem;
+  font-family:'Martel', Georgia, serif;
+  font-weight:700;
+  border-radius: 6px;
+width: 300px;
+justify-content: center;
+text-align: center;
+margin-left:auto;
+margin-right: auto;
+}
+.mebutton a{
+  color: #E5AE5E;
+}
+.mebutton a:hover{ 
+  color: #49558a;
+}
+.aboutbutton{ 
+  background-color: #F8F4E3;
+  border: 1px solid #F8F4E3;
+  font-size: 1.5rem;
+  padding: .7rem;
+  font-family:'Martel', Georgia, serif;
+  font-weight:700;
+  border-radius: 6px;
+width: 250px;
+justify-content: center;
+text-align: center;
+margin-left:auto;
+margin-right: auto;
+margin-bottom: 3rem;
+}
+.aboutbutton a{
+  color: #E5AE5E;
+}
+.aboutbutton a:hover{ 
+  color: #49558a;
+}
+.reviews{ 
+ background-color: #F8F4E3; 
+ padding:.3rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+
+.recentprojects h2{ 
+  color: #49558A;
+  margin-top: 2.5rem;
 }
 .email{ 
   max-width:18%;
@@ -255,12 +364,14 @@ margin-bottom: 1rem;
 }
 
 header img { 
-  max-height: 2rem;
-  margin-top: 1rem;
+  max-height: 5rem;  
+  background-color: #F8F4E3;
+  margin-top: 0rem;
+  margin-bottom: -.5rem;
 }
 footer{ 
   color: #49558A;
-  background-color:#EDCF8E;
+  background-color:#F8F4E3;
   margin-top: 1rem;
   padding-top: .5rem;
   padding-left: .5rem;
@@ -269,6 +380,9 @@ footer{
 footer img{ 
   margin-top: auto;
   margin-bottom: auto;
+}
+footer p{ 
+  margin-left: 1rem;
 }
 
 
@@ -287,6 +401,13 @@ nav a{
 }
 video{ 
 flex-flow: row;
+margin-left: auto;
+margin-right: auto;
+}
+.oneimage{ 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 .me{ 
   width: 48%;
@@ -296,14 +417,20 @@ flex-flow: row;
   margin-right: 2rem;
   margin-bottom: 1rem;
 }
+.mecircle{ 
+  width: 35%;
+  float: left;
+  margin-right: 2rem;
+}
+.vimeo{ 
+  margin-left: auto;
+  margin-right: auto;
 
-.homepageline hr{ 
-  margin-top: 7rem;
-  margin-bottom: 1rem;
 }
 a.bbcasestudy article img{  
 width: 100%;
 }
+
 
 .gif{ 
   width:75%;
@@ -323,34 +450,47 @@ a.bbcasestudy article h3{
 .grid{ 
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(19rem,1fr));
+  margin-left: auto;
+  margin-right: auto;
 }
-.newestarticle article{
-  color: black;
-  text-decoration: none;
-  margin-top: .2rem;
-  text-align: center;
-  width: 50%;
- margin-left: auto;
- margin-right: auto;
+
+
+.indexgrid{ 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-gap: .5em;
+width: 100%;
 }
-.newestarticle img{ 
-padding-left: 3rem;
-padding-right: 3rem;
+.twogrid{ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-gap: .5em;
+width: 100%;
 }
-.newestarticle h3{
-  font-size: 1.2rem;
-  margin-top: 1rem;
+.vogrid{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-gap: .5em;
+  width: 100%;
+  }
 }
+
 .newestarticle p{ 
   font-size: .8rem;
+  text-align: center;
+}
+.newestarticle article{ 
+width: 100%;
 }
 
 .recentprojects hr{ 
   margin-bottom: .5rem;
 }
-.recentprojects h2{ 
-  margin-top: 0rem;
-}
+
+
 .embed{ 
   float: left;
   margin-right: 2rem;
@@ -361,11 +501,18 @@ padding-right: 3rem;
     font-size: 1.3rem;
   }
   .icon{ 
-    max-width: 5%;
+    max-width: 10%;
+margin-left: 1rem;
   }
+.mecircle{ 
+width: 30%;
+}
+.bio{ 
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
   .grid{ 
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
-}
 }
 }
