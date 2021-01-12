@@ -1,4 +1,4 @@
-$ dig WWW.CMCREATIVSCO.COM +nostats +nocomments +nocmd
+$ dig WWW.CMCREATIVESCO.COM +nostats +nocomments +nocmd
     > ;WWW.CMCREATIVESCO.COM.                     IN      A
     > WWW.CMCREATIVESC0.COM.              3592    IN      CNAME   carmooney.github.io.
     > carmooney.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
